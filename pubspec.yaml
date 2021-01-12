@@ -54,8 +54,11 @@ flutter:
   assets:
     - images/bmi.png
     - images/chat.png
-    - images/todolist.JPG
-    - images/covid19.JPG
+    - images/todolist.png
+    - images/covid19.png
+    - images/bitcoin.png
+    - images/clima.png
+    - images/ChotaCart.png
     # - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

@@ -1,8 +1,8 @@
-import 'package:abhinav_portfolio/comingSoon.dart';
+import 'package:abhinav_portfolio/comingSoonPage.dart';
 import 'package:flutter/material.dart';
-import 'package:abhinav_portfolio/contacts.dart';
-import 'package:abhinav_portfolio/projects.dart';
-import 'package:abhinav_portfolio/home.dart';
+import 'package:abhinav_portfolio/contactPage.dart';
+import 'package:abhinav_portfolio/projectPage.dart';
+import 'package:abhinav_portfolio/homePage.dart';
 
 void main() {
   runApp(MyApp());
@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/': (context) => HomePage(),
-        '/projects': (context) => Projects(),
+        '/projects': (context) => ProjectPage(),
         '/contacts': (context) => Contacts(),
         '/comingSoon': (context) => ComingSoon(),
       },
